@@ -1,0 +1,13 @@
+---- 490000000 Matches (0 in 0 files) ----
+---- 0x8B5 Matches (11 in 2 files) ----
+arm_rfft_init_q15.c (SPI_MASTER_476\Drivers\CMSIS\DSP_Lib\Source\TransformFunctions) line 412 :     0x8b5, 0xdfc6, 0x8ae, 0xdfd1, 0x8a8, 0xdfdc, 0x8a2, 0xdfe7,
+arm_rfft_init_q15.c (SPI_MASTER_476\Drivers\CMSIS\DSP_Lib\Source\TransformFunctions) line 756 :     0x8b5, 0x203a, 0x8bb, 0x2045, 0x8c1, 0x2050, 0x8c8, 0x205b,
+main in main.c (SPI_MASTER_476\Src) : 		//SX126xWriteRegister(0x8B5, SX126xReadRegister(0x8B5) | 0x01);
+main in main.c (SPI_MASTER_476\Src) : 		//AgcL1Ctrl.L1_1st_gainstep (addr 0x8B5, bit 5 downto 2)
+main in main.c (SPI_MASTER_476\Src) : 		//printf("before modification:0x8B5=0x%x\n",SX126xReadRegister(0x8B5));
+main in main.c (SPI_MASTER_476\Src) : 		//SX126xWriteRegister(0x8B5, (SX126xReadRegister(0x8B5) & 0xC3)|(L1_1st_gainstep<<2));
+main in main.c (SPI_MASTER_476\Src) : 		//printf("after modification:0x8B5=0x%x\n",SX126xReadRegister(0x8B5));
+---- FSK_AFC_BANDWIDTH Matches (2 in 1 files) ----
+main.c (SPI_MASTER_476\Src) line 96 : #define FSK_AFC_BANDWIDTH                           100000     // Hz
+main in main.c (SPI_MASTER_476\Src) : 						0, FSK_AFC_BANDWIDTH, FSK_PREAMBLE_LENGTH,
+---- FSK BW Matches (0 in 0 files) ----
